@@ -1,4 +1,4 @@
-.a1{
+.ani-1{
     font-family: 'roboto'; 'raleway'; sans-serif;
     color: #434455;
     font-size: 16px;
@@ -6,7 +6,7 @@
     background-color: #ffffff;
     font-weight: 400; 500; 700;
 }
-.b1{
+.bni-1{
     background-color: #ffffff;    
 }
 a{
@@ -37,23 +37,34 @@ a{
     font-size: 16px;
     line-height: 0.157;
 }
-h1 {
+.cni-1a {
     color: #ffffff;
     font-family: roboto;
     font-weight: 700;
     font-size: 56px;
-    line-height: 0.242;
+    line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em
 }   
-.c1 .c2{
-    background-color: #4d5ae5;
+.cni-1 .cni-2{
+    background-color: #4D5AE5;
     color: #ffffff;
     font-family: roboto;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 0.229;    
- }
-.d1 .d2{
+    line-height: 1.5;
+    letter-spacing: 0.04em;    
+}
+.cni-1 .cni-2 .link:hover{
+    background-color: #404BBF;
+}
+.cni-1 .cni-2 .link:focus {
+    background-color: #404BBF;
+}
+.cni-1 .cni-2 .pseudo-class:hover{
+    cursor: pointer;
+}
+.dni-1 .dni-2{
     color: #2e2f42;
     font-family: roboto;
     font-weight: 700;
@@ -76,7 +87,7 @@ h1 {
     font-size: 16px;
     line-height: 0.27;
 }
-.e1 >e2{
+.eni-1 .eni-2{
     color: #2e2f42;
     font-family: roboto;
     font-weight: 700;
@@ -84,7 +95,7 @@ h1 {
     line-height: 0.24;
     text-align: center;
 }
-.liste4 .e4 {
+.liste4 .eni-4 {
     color: #2e2f42;
     font-family: roboto;
     font-weight: 500;
@@ -92,7 +103,7 @@ h1 {
     line-height: 0.17;
     text-align: center;
 }
-.liste4 .e5{
+.liste4 .eni5{
     color: #434455;
     font-family: roboto;
     font-weight: 400;
@@ -100,7 +111,7 @@ h1 {
     line-height: 0.18;
     text-align: center;
 }
-.f1 .f2{
+.feni-1 .feni-2{
     color: #2e2f42;
     font-family: roboto;
     font-weight: 700;
@@ -108,24 +119,24 @@ h1 {
     line-height: 0.24;
     text-align: center;
 }
-.list5 .f4 {
+.list5 .feni-4 {
     color: #2e2f42;
     font-family: roboto;
     font-weight: 500;
     font-size: 20px;
     text-align: center;
 }
-.liste5 .f5 {
+.liste5 .feni-5 {
     color: #434455;
     font-family: roboto;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
 }
-.g1 {
+.geni-1 {
     background-color: #2e2f42;
 }
-.g1 .g2{
+.geni-1 .geni-2{
     color: f4f4fd;
     font-family: roboto;
     font-weight: 400;
