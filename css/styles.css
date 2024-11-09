@@ -247,6 +247,7 @@ body {
     line-height: 1.5;
     color: #F4F4FD;/*lms deki renk kodu yanlış bu doğru*/
     letter-spacing: 0.02em;
+    text-align: justify;
 }
    
 
