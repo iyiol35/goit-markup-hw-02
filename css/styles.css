@@ -1,4 +1,4 @@
-body{
+.a1{
     font-family: 'roboto'; 'raleway'; sans-serif;
     color: #434455;
     font-size: 16px;
@@ -6,81 +6,118 @@ body{
     background-color: #ffffff;
     font-weight: 400; 500; 700;
 }
-nav{
+.b1{
     background-color: #ffffff;    
 }
-.accent{
+a{
     color: #4d5ae5;
     font-family: raleway;
     font-weight: 700;
     font-size: 16px;
     line-height: 0.48;
 }
-a{
+.accent{
     color: #2e2f42;
     font-family: raleway;
     font-weight: 700;
     font-size: 16px;
     line-height: 0.48;
+}  
+    .liste1{
+        color: #2e2f42;
+        font-family: raleway;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 0.36;
+    }
+.liste2{
+    color: #434455;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.157;
 }
-    body {
-            font-family: 'roboto';
-            'raleway';
-            sans-serif;
-            color: #434455;
-            font-size: 16px;
-            line-height: 1.5;
-            background-color: #ffffff;
-            font-weight: 400;
-            500;
-            700;
-        }
-    
-        nav {
-            background-color: #ffffff;
-        }
-    
-        .accent {
-            color: #4d5ae5;
-            font-family: raleway;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 0.48;
-        }
-    
-        a {
-            color: #2e2f42;
-            font-family: raleway;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 0.48;
-        }
-                ul >li {
-                    color: #2e2f42;
-                    font-family: raleway;
-                    font-weight: 500;
-                    font-size: 16px;
-                    line-height: 0.36;
-                }
-        address{
-            color: #434455;
-            font-family: roboto;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 0.157;
-        }
-        header{
-            color: #ffffff;
-            font-family: roboto;
-            font-weight: 700;
-            font-size: 56px;
-            line-height: 0.242;
-        }
-        button{
-            background-color: #4d5ae5;
-            color: #ffffff;
-            font-family: roboto;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 0.229;
-        }
+h1 {
+    color: #ffffff;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 0.242;
+    text-align: center;
+}   
+.c1 .c2{
+    background-color: #4d5ae5;
+    color: #ffffff;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.229;    
+ }
+.d1 .d2{
+    color: #2e2f42;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.24;
+    text-align: center;
+}
+.liste3 >h3{
+    color: #2e2f42;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.09;
+
+}
+.liste3 >p{
+    color: #434455;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.27;
+}
+.e1 >e2{
+    color: #2e2f42;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.24;
+    text-align: center;
+}
+.liste4 .e4 {
+    color: #2e2f42;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.17;
+    text-align: center;
+}
+.liste4 .e5{
+    color: #434455;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.18;
+    text-align: center;
+}
+.f1 .f2{
+    color: #2e2f42;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.24;
+    text-align: center;
+}
+.list5 .f4 {
+    color: #2e2f42;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+.liste5 .f5 {
+    color: #434455;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
