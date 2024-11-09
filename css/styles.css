@@ -121,3 +121,18 @@ h1 {
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+}
+.g1 {
+    background-color: #2e2f42;
+}
+.g1 .g2{
+    color: f4f4fd;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 0.272;
+}
+   
+
+
