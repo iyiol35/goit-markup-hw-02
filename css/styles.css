@@ -1,46 +1,116 @@
-.ani-1{
-    font-family: 'roboto'; 'raleway'; sans-serif;
+body{
+    font-family: Roboto, sans-serif;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     background-color: #ffffff;
     font-weight: 400; 500; 700;
 }
-.bni-1{
+.tepe{
     background-color: #ffffff;    
 }
-a{
+.tepe .tepe-1{
     color: #4d5ae5;
-    font-family: raleway;
+    font-family: Raleway;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 0.48;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .accent{
     color: #2e2f42;
     font-family: raleway;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 0.48;
+    font-size: 18px;
+    line-height: 1.17;
 }  
     .liste1{
         color: #2e2f42;
         font-family: raleway;
         font-weight: 500;
         font-size: 16px;
-        line-height: 0.36;
+        line-height: 0.36;        
     }
-.liste2{
-    color: #434455;
+    .liste1 .tepe-2{
+    color: #2e2f42;
     font-family: roboto;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 0.157;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+    .liste1 .tepe-2 .link:hover {
+    color: #404bbf;
+    }
+    .liste1 .tepe-2 .link:focus{
+    color: #404bbf;
+    }
+    .liste1 .tepe-3 {
+    color: #2e2f42;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+
+    .liste1 .tepe-3 .link:hover {
+    color: #404bbf;
+    }
+
+    .liste1 .tepe-3 .link:focus {
+    color: #404bbf;
+    }
+    .liste1 .tepe-4 {
+    color: #2e2f42;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+
+    .liste1 .tepe-4 .link:hover {
+    color: #404bbf;
+    }
+
+    .liste1 .tepe-4 .link:focus {
+    color: #404bbf;
+    }
+.adres{
+    font-style: normal;
 }
-.cni-1{
+.liste2 .adres-1{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.liste2 .adres-1 .link:hover {
+    color: #404bbf;
+}
+
+.liste2 .adres-1 .link:focus {
+    color: #404bbf;
+}
+.liste2 .adres-2 {
+    color: #434455 font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.liste2 .adres-2 .link:hover {
+    color: #404bbf;
+}
+
+.liste2 .adres-2 .link:focus {
+    color: #404bbf;
+}
+.part1{
     background-color: #2e2f42;
 }
-.cni-1a {
+.part-1 baslik {
     color: #ffffff;
     font-family: roboto;
     font-weight: 700;
@@ -49,33 +119,34 @@ a{
     text-align: center;
     letter-spacing: 0.02em;
 }   
-.cni-1 .cni-2{
+.part1 .dugme{
     background-color: #4D5AE5;
     color: #ffffff;
-    font-family: roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;    
 }
-.cni-1 .cni-2 .link:hover{
+.part1 .dugme .link:hover{
     background-color: #404BBF;
 }
-.cni-1 .cni-2 .link:focus {
+.part1 .dugme .link:focus {
     background-color: #404BBF;
 }
-.cni-1 .cni-2 .pseudo-class:hover{
-    cursor: pointer;
+.part1 .dugme .link:hover{
+    cursor: pointer;    
 }
-.dni-1 .dni-2{
+.part2 .part2 baslik{
     color: #2e2f42;
     font-family: roboto;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 0.24;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
 }
-.liste3 .dni3{
+.liste3 .part2 baslik1{
     color: #2e2f42;
     font-family: roboto;
     font-weight: 500;
@@ -84,7 +155,7 @@ a{
     letter-spacing: 0.02em;
 
 }
-.liste3 .dni4{
+.liste3 .part2 yazi{
     color: #434455;
     font-family: roboto;
     font-weight: 400;
@@ -92,10 +163,10 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.eni-1{
+.part3{
     background-color: #f4f4fd;
 }
-.eni-1 .eni-2{
+.part3 baslik{
     color: #2e2f42;
     font-family: roboto;
     font-weight: 700;
@@ -109,7 +180,7 @@ a{
 .liste4 .liste4-1{
     background-color: #FFFFFF;
 }
-.liste4 .eni-4 {
+.liste4 .part3 baslik1 {
     color: #2e2f42;
     font-family: roboto;
     font-weight: 500;
@@ -118,7 +189,7 @@ a{
     letter-spacing: 0.02em;
     text-align: center;
 }
-.liste4 .eni5{
+.liste4 .part3 yazi{
     color: #434455;
     font-family: roboto;
     font-weight: 400;
@@ -127,10 +198,7 @@ a{
     letter-spacing: 0.02em;
     text-align: center;
 }
-.feni-1{
-    background-color: #f4f4fd
-}
-.feni-1 .feni-2{
+.part4 baslik{
     color: #2e2f42;
     font-family: roboto;
     font-weight: 700;
@@ -140,38 +208,45 @@ a{
     text-align: center;
     text-transform: capitalize;
 }
-.liste5 .liste1{
-    background-color: #FFFFFF    
-}
-.list5 .feni-4 {
+.list5 .part4 baslik1 {
     color: #2e2f42;
     font-family: roboto;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
+    letter-spacing: 0.02em;   
 }
-.liste5 .feni-5 {
+.liste5 .part4 yazi {
     color: #434455;
     font-family: roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
+    letter-spacing: 0.02em;    
 }
-.geni-1 {
+.final {
     background-color: #2e2f42;
 }
-.geni-1 .geni-2{
-    color: f4f4fd;
-    font-family: roboto;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: justify;
-    line-height: 0.272;
+.tepe .tepe-1 {
+    color: #4d5ae5;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.accent {
+    color: #2e2f42;
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+}
+.final yazi{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
    
 
