@@ -1,5 +1,5 @@
-body{
-    font-family: Roboto, sans-serif;
+body {
+    font-family: Roboto,sans-serif;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -19,7 +19,7 @@ body{
     text-transform: uppercase;
 }
 .accent{
-    color: #2e2f42;
+    color: #f4f4fd; /*lms deki renk kodu yanlış bu doğru*/
     font-family: raleway;
     font-weight: 700;
     font-size: 18px;
@@ -245,7 +245,7 @@ body{
 }
 .final yazi{
     line-height: 1.5;
-    color: #F4F4FD;
+    color: #F4F4FD;/*lms deki renk kodu yanlış bu doğru*/
     letter-spacing: 0.02em;
 }
    
