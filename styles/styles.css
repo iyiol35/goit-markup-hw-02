@@ -1,0 +1,86 @@
+body{
+    font-family: 'roboto'; 'raleway'; sans-serif;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    font-weight: 400; 500; 700;
+}
+nav{
+    background-color: #ffffff;    
+}
+.accent{
+    color: #4d5ae5;
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 0.48;
+}
+a{
+    color: #2e2f42;
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 0.48;
+}
+    body {
+            font-family: 'roboto';
+            'raleway';
+            sans-serif;
+            color: #434455;
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: #ffffff;
+            font-weight: 400;
+            500;
+            700;
+        }
+    
+        nav {
+            background-color: #ffffff;
+        }
+    
+        .accent {
+            color: #4d5ae5;
+            font-family: raleway;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 0.48;
+        }
+    
+        a {
+            color: #2e2f42;
+            font-family: raleway;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 0.48;
+        }
+                ul >li {
+                    color: #2e2f42;
+                    font-family: raleway;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 0.36;
+                }
+        address{
+            color: #434455;
+            font-family: roboto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 0.157;
+        }
+        header{
+            color: #ffffff;
+            font-family: roboto;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 0.242;
+        }
+        button{
+            background-color: #4d5ae5;
+            color: #ffffff;
+            font-family: roboto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 0.229;
+        }
