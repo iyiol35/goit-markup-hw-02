@@ -18,14 +18,14 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-span {
+.tepe .tepe-link span {
     color: #f4f4fd;
     font-family: raleway;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
 }   
-    .liste1 .link{
+.tepe .liste1 .link{
     color: #2e2f42;
     font-family: roboto;
     font-weight: 500;
@@ -42,7 +42,7 @@ span {
 .adres{
     font-style: normal;
 }
-.liste2 .link1{
+.adres .liste2 .link1{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -58,7 +58,7 @@ span {
 .part1{
     background-color: #2e2f42;
 }
-.part1 baslik {
+.part1 .part1 baslik {
     color: #ffffff;  
     font-size: 56px;
     line-height: 1.07;    
@@ -88,14 +88,14 @@ span {
     line-height: 1.2;
     letter-spacing: 0.02em;    
 }
-.liste3 .part2 baslik1{
+.part2 .liste3 .part2 baslik1{
     color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2px;
     letter-spacing: 0.02em;
 }
-.liste3 .part2 yazi{
+.part2 .liste3 .part2 yazi{
     color: #434455;    
     font-weight: 400;
     font-size: 16px;
@@ -113,17 +113,17 @@ span {
     letter-spacing: 0.02em;
     text-transform: capitalize;  
 }
-.liste4 .liste4-1{
+.part3 .liste4 .liste4-1{
     background-color: #ffffff;
 }
-.liste4 .part3 baslik1 {
+.part3 .liste4 .part3 baslik1 {
     color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.liste4 .part3 yazi{
+.part3 .liste4 .part3 yazi{
     color: #434455;  
     font-size: 16px;
     line-height: 1.5;
@@ -137,14 +137,14 @@ span {
     text-align: center;
     text-transform: capitalize;
 }
-.list5 .part4 baslik1 {
+.part4 .list5 .part4 baslik1 {
     color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;   
 }
-.liste5 .part4 yazi {
+.part4 .liste5 .part4 yazi {
     color: #434455; 
     font-size: 16px;
     line-height: 1.5;
@@ -153,7 +153,7 @@ span {
 .final {
     background-color: #2e2f42;
 }
-.tepe .tepe-link {
+.final .tepe .tepe-link {
     color: #4d5ae5;
     font-family: raleway;
     font-weight: 700;
