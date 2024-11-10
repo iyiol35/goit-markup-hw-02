@@ -162,12 +162,12 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-span {
+.final span {
     color: #2e2f42;    
 }
 .final .final yazi{
     line-height: 1.5;
-    color: #f4f4fd;
+    color:#f4f4fd;
     letter-spacing: 0.02em;    
 }
    
