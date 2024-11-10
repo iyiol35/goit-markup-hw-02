@@ -92,7 +92,7 @@ body {
     color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .partb .liste3 .partb-yazi{
@@ -113,7 +113,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;  
 }
-.partc .liste4 .liste4-1{
+.partc .liste4 .liste4-a{
     background-color: #ffffff;
 }
 .partc .liste4 .partc-baslik-a {
@@ -137,7 +137,7 @@ body {
     text-align: center;
     text-transform: capitalize;
 }
-.partd .list5 .partd-baslik_a {
+.partd .list5 .partd-baslika {
     color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
