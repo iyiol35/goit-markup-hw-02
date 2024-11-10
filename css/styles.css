@@ -19,20 +19,13 @@ body {
     text-transform: uppercase;
 }
 .accent{
-    color: #f4f4fd; /*lms deki renk kodu yanlış bu doğru*/
+    color: #f4f4fd;
     font-family: raleway;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-}  
-    .liste1{
-        color: #2e2f42;
-        font-family: raleway;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 0.36;        
-    }
-    .liste1 .tepe-2{
+}   
+    .liste1 .link{
     color: #2e2f42;
     font-family: roboto;
     font-weight: 500;
@@ -40,71 +33,26 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
-    .liste1 .tepe-2 .link:hover {
+    .liste1 .link:hover {
     color: #404bbf;
     }
-    .liste1 .tepe-2 .link:focus{
+    .liste1 .link:focus{
     color: #404bbf;
-    }
-    .liste1 .tepe-3 {
-    color: #2e2f42;
-    font-family: roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    }
-
-    .liste1 .tepe-3 .link:hover {
-    color: #404bbf;
-    }
-
-    .liste1 .tepe-3 .link:focus {
-    color: #404bbf;
-    }
-    .liste1 .tepe-4 {
-    color: #2e2f42;
-    font-family: roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    }
-
-    .liste1 .tepe-4 .link:hover {
-    color: #404bbf;
-    }
-
-    .liste1 .tepe-4 .link:focus {
-    color: #404bbf;
-    }
+    }    
 .adres{
     font-style: normal;
 }
-.liste2 .adres-1{
+.liste2 .link1{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.liste2 .adres-1 .link:hover {
+.liste2 .link1:hover {
     color: #404bbf;
 }
 
-.liste2 .adres-1 .link:focus {
-    color: #404bbf;
-}
-.liste2 .adres-2 {
-    color: #434455 font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.liste2 .adres-2 .link:hover {
-    color: #404bbf;
-}
-
-.liste2 .adres-2 .link:focus {
+.liste2 .link1:focus {
     color: #404bbf;
 }
 .part1{
@@ -119,23 +67,21 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
 }   
-.part1 .dugme{
+.part1 .link3{
     background-color: #4D5AE5;
     color: #ffffff;
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;    
-}
-.part1 .dugme .link:hover{
-    background-color: #404BBF;
-}
-.part1 .dugme .link:focus {
-    background-color: #404BBF;
-}
-.part1 .dugme .link:hover{
+    letter-spacing: 0.04em;
     cursor: pointer;    
+}
+.part1 .link3:hover{
+    background-color: #404BBF;
+}
+.part1 .link3:focus {
+    background-color: #404BBF;
 }
 .part2 .part2 baslik{
     color: #2e2f42;
@@ -153,7 +99,6 @@ body {
     font-size: 20px;
     line-height: 1.2px;
     letter-spacing: 0.02em;
-
 }
 .liste3 .part2 yazi{
     color: #434455;
@@ -245,7 +190,7 @@ body {
 }
 .final yazi{
     line-height: 1.5;
-    color: #F4F4FD;/*lms deki renk kodu yanlış bu doğru*/
+    color: #F4F4FD;
     letter-spacing: 0.02em;
     text-align: justify;
 }
