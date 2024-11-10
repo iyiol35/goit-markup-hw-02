@@ -59,13 +59,11 @@ span {
     background-color: #2e2f42;
 }
 .part1 baslik {
-    color: #ffffff;
-    font-family: roboto;
-    font-weight: 700;
+    color: #ffffff;  
     font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
+    line-height: 1.07;    
     letter-spacing: 0.02em;
+    text-align: center;
 }   
 .part1 .link3{
     background-color: #4D5AE5;
@@ -84,25 +82,21 @@ span {
     background-color: #404BBF;
 }
 .part2 .part2 baslik{
-    color: #2e2f42;
-    font-family: roboto;
+    color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
+    letter-spacing: 0.02em;    
 }
 .liste3 .part2 baslik1{
-    color: #2e2f42;
-    font-family: roboto;
+    color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2px;
     letter-spacing: 0.02em;
 }
 .liste3 .part2 yazi{
-    color: #434455;
-    font-family: roboto;
+    color: #434455;    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -111,28 +105,32 @@ span {
 .part3{
     background-color: #f4f4fd;
 }
-.liste4 .part3 baslik1 {
+.part3 .part3 baslik{
     color: #2e2f42;
-    font-family: roboto;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;  
+}
+.liste4 .liste4-1{
+    background-color: #ffffff;
+}
+.liste4 .part3 baslik1 {
+    color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 .liste4 .part3 yazi{
-    color: #434455;
-    font-family: roboto;
-    font-weight: 400;
+    color: #434455;  
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
+    letter-spacing: 0.02em;    
 }
 .part4 baslik{
-    color: #2e2f42;
-    font-family: roboto;
-    font-weight: 700;
+    color: #2e2f42;      
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -140,17 +138,14 @@ span {
     text-transform: capitalize;
 }
 .list5 .part4 baslik1 {
-    color: #2e2f42;
-    font-family: roboto;
+    color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;   
 }
 .liste5 .part4 yazi {
-    color: #434455;
-    font-family: roboto;
-    font-weight: 400;
+    color: #434455; 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;    
@@ -168,17 +163,11 @@ span {
     text-transform: uppercase;
 }
 span {
-    color: #2e2f42;
-    font-family: raleway;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    color: #2e2f42;    
 }
 .final yazi{
     line-height: 1.5;
-    color: #F4F4FD;
+    color: #f4f4fd;
     letter-spacing: 0.02em;    
 }
    
