@@ -15,7 +15,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0,03em;
     text-transform: uppercase;
 }
 .tepe .tepe-link span {
@@ -31,7 +31,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0,02em;
     }
     .liste1 .link:hover {
     color: #404bbf;
@@ -46,7 +46,7 @@ body {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0,02em;
 }
 .liste2 .link1:hover {
     color: #404bbf;
@@ -62,7 +62,7 @@ body {
     color: #ffffff;  
     font-size: 56px;
     line-height: 1.07;    
-    letter-spacing: 0.02em;
+    letter-spacing: 0,02em;
     text-align: center;
 }   
 .part1 .link3{
@@ -72,7 +72,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
+    letter-spacing: 0,04em;
     cursor: pointer;    
 }
 .part1 .link3:hover{
@@ -86,21 +86,21 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;    
+    letter-spacing: 0,02em;    
 }
 .part2 .liste3 .part2 baslik1{
     color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0,02em;
 }
 .part2 .liste3 .part2 yazi{
     color: #434455;    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0,02em;
 }
 .part3{
     background-color: #f4f4fd;
@@ -110,7 +110,7 @@ body {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
+    letter-spacing: 0,02em;
     text-transform: capitalize;  
 }
 .part3 .liste4 .liste4-1{
@@ -121,19 +121,19 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+    letter-spacing: 0,02em;
 }
 .part3 .liste4 .part3 yazi{
     color: #434455;  
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;    
+    letter-spacing: 0,02em;    
 }
 .part4 baslik{
     color: #2e2f42;      
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
+    letter-spacing: 0,02em;
     text-align: center;
     text-transform: capitalize;
 }
@@ -142,13 +142,13 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;   
+    letter-spacing: 0,02em;   
 }
 .part4 .liste5 .part4 yazi {
     color: #434455; 
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;    
+    letter-spacing: 0,02em;    
 }
 .final {
     background-color: #2e2f42;
@@ -159,7 +159,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0,03em;
     text-transform: uppercase;
 }
 .final span {
@@ -167,8 +167,8 @@ body {
 }
 .final .final yazi{
     line-height: 1.5;
-    color:#f4f4fd;
-    letter-spacing: 0.02em;    
+    color:#F4F4FD;
+    letter-spacing: 0,02em;    
 }
    
 
