@@ -42,30 +42,30 @@ body {
 .adres{
     font-style: normal;
 }
-.adres .liste2 .link1{
+.adres .liste2 .link-a{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.liste2 .link1:hover {
+.liste2 .link-a:hover {
     color: #404bbf;
 }
 
-.liste2 .link1:focus {
+.liste2 .link-a:focus {
     color: #404bbf;
 }
-.part1{
+.parta{
     background-color: #2e2f42;
 }
-.part1 .part1-baslik {
+.parta .parta-baslik {
     color: #ffffff;  
     font-size: 56px;
     line-height: 1.07;    
     letter-spacing: 0.02em;
     text-align: center;
 }   
-.part1 .link3{
+.parta .link-b{
     background-color: #4D5AE5;
     color: #ffffff;
     font-family: Roboto, sans-serif;
@@ -75,37 +75,37 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;    
 }
-.part1 .link3:hover{
+.parta .link-b:hover{
     background-color: #404BBF;
 }
-.part1 .link3:focus {
+.parta .link-b:focus {
     background-color: #404BBF;
 }
-.part2 .part2-baslik{
+.partb .partb-baslik-a{
     color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;    
 }
-.part2 .liste3 .part2-baslik1{
+.partb .liste3 .partb-baslik-a{
     color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2px;
     letter-spacing: 0.02em;
 }
-.part2 .liste3 .part2-yazi{
+.partb .liste3 .partb-yazi{
     color: #434455;    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.part3{
+.partc{
     background-color: #f4f4fd;
 }
-.part3 .part3-baslik{
+.partc .partc-baslik{
     color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
@@ -113,23 +113,23 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;  
 }
-.part3 .liste4 .liste4-1{
+.partc .liste4 .liste4-1{
     background-color: #ffffff;
 }
-.part3 .liste4 .part3-baslik1 {
+.partc .liste4 .partc-baslik-a {
     color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.part3 .liste4 .part3-yazi{
+.partc .liste4 .partc-yazi{
     color: #434455;  
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;    
 }
-.part4 .part4-baslik{
+.partd .partd-baslik{
     color: #2e2f42;      
     font-size: 36px;
     line-height: 1.11;
@@ -137,14 +137,14 @@ body {
     text-align: center;
     text-transform: capitalize;
 }
-.part4 .list5 .part4-baslik_a {
+.partd .list5 .partd-baslik_a {
     color: #2e2f42;    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;   
 }
-.part4 .liste5 .part4-yazi {
+.partd .liste5 .partd-yazi {
     color: #434455; 
     font-size: 16px;
     line-height: 1.5;
