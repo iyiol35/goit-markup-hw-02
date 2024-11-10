@@ -18,7 +18,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.accent{
+span{
     color: #f4f4fd;
     font-family: raleway;
     font-weight: 700;
@@ -167,7 +167,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.accent {
+span {
     color: #2e2f42;
     font-family: raleway;
     font-weight: 700;
@@ -175,7 +175,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    }
 }
 .final yazi{
     line-height: 1.5;
