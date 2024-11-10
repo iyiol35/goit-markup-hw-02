@@ -153,7 +153,7 @@ body {
 .final {
     background-color: #2e2f42;
 }
-.final .tepe .tepe-link {
+.final .final-link {
     color: #4d5ae5;
     font-family: raleway;
     font-weight: 700;
@@ -162,7 +162,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.final .tepe-link span {
+.final .final-link1 {
     color: #f4f4fd;
     font-family: raleway;
     font-weight: 700;
