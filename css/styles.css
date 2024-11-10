@@ -163,7 +163,11 @@ body {
     text-transform: uppercase;
 }
 .final span {
-    color: #2e2f42;    
+    color: #f4f4fd;
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
 }
 .final .final yazi{
     line-height: 1.5;
