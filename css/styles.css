@@ -9,7 +9,7 @@ body {
 .tepe{
     background-color: #ffffff;    
 }
-.tepe .tepe-link{
+.tepe .tepe-link,linka,linkb{
     color: #4d5ae5;
     font-family: Raleway;
     font-weight: 700;
@@ -18,7 +18,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-span{
+span {
     color: #f4f4fd;
     font-family: raleway;
     font-weight: 700;
