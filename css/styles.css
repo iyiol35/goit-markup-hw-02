@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto,sans_serif;
+    font-family: Roboto,sans-serif;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -11,7 +11,7 @@ body {
 }
 .tepe .tepe-link{
     color: #4d5ae5;
-    font-family: Raleway; sans_serif
+    font-family: Raleway,sans-serif
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -20,7 +20,7 @@ body {
 }
 .tepe .tepe-link span {
     color: #f4f4fd;
-    font-family: Raleway; sans-serif;
+    font-family: Raleway,sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -68,7 +68,7 @@ body {
 .parta .link-b{
     background-color: #4D5AE5;
     color: #ffffff;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -155,7 +155,7 @@ body {
 }
 .final .final-link {
     color: #4d5ae5;
-    font-family: Raleway; sans_serif;
+    font-family: Raleway,sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -164,7 +164,7 @@ body {
 }
 .final .final-link-c {
     color: #f4f4fd;
-    font-family: Raleway; sans_serif;
+    font-family: Raleway,sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
