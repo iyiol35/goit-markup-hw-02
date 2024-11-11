@@ -113,7 +113,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;  
 }
-.partc .liste4 .liste4-a{
+.partc .liste4 .alt-liste{
     background-color: #ffffff;
 }
 .partc .liste4 .partc-baslik-a {
@@ -137,7 +137,7 @@ body {
     text-align: center;
     text-transform: capitalize;
 }
-.partd .list5 .partd-baslik-a {
+.partd .list5 .partd-altbaslik {
     color: #2e2f42;  
     font-weight: 500;
     font-size: 20px;
