@@ -11,7 +11,7 @@ body {
 }
 .tepe .tepe-link{
     color: #4d5ae5;
-    font-family: Raleway,sans-serif
+    font-family: Raleway,sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -65,15 +65,15 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
 }   
-.parta .link-b{
+.parta .link-b {
     background-color: #4D5AE5;
     color: #ffffff;
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer;    
+    cursor: pointer;
 }
 .parta .link-b:hover{
     background-color: #404BBF;
