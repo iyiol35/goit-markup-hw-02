@@ -11,7 +11,7 @@ body {
 }
 .tepe .tepe-link{
     color: #4d5ae5;
-    font-family: raleway;
+    font-family: Raleway;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -20,7 +20,7 @@ body {
 }
 .tepe .tepe-link span {
     color: #f4f4fd;
-    font-family: raleway;
+    font-family: Raleway;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -155,16 +155,16 @@ body {
 }
 .final .final-link {
     color: #4d5ae5;
-    font-family: raleway;
+    font-family: Raleway;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.final .final-link1 {
+.final .final-link-c {
     color: #f4f4fd;
-    font-family: raleway;
+    font-family: Raleway;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
