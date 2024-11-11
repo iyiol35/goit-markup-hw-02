@@ -25,7 +25,7 @@ body {
     font-size: 18px;
     line-height: 1.17;
 }   
-.tepe .liste1 .link{
+.tepe .liste1 .liste1-tepelink .link{
     color: #2e2f42;
     font-family: roboto;
     font-weight: 500;
@@ -33,10 +33,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
-    .liste1 .link:hover {
+    .liste1 .liste1-tepelink .link:hover {
     color: #404bbf;
     }
-    .liste1 .link:focus{
+    .liste1 .liste1-tepelink .link:focus{
     color: #404bbf;
     }    
 .adres{
