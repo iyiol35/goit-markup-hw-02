@@ -224,8 +224,8 @@ h1 h2 h3 h4 h5 h6 p ul {
     flex-direction: row;
     gap: 24px; 
 }
-.partb .liste3-a{
-    width: calc((100% - 72px) / 4);
+.partb .li-a{
+    width: calc((100% - 72px)/4);
 }
 .partb .liste3 .partb-baslik-a {
     color: #2e2f42;
