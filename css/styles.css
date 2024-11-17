@@ -1,53 +1,137 @@
 body {
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     background-color: #ffffff;
-    font-weight: 400; 500; 700;
+    font-weight: 400;
+    500;
+    700;
+    width: 100;
+    height: 100;
+    margin: 0;
+    padding: 0;
 }
-.tepe{
-    background-color: #ffffff;    
+
+h1 h2 h3 h4 h5 h6 p ul {
+    margin-top: 0;
+    margin-bottom: 0;
 }
-.tepe .tepe-link{
+
+.container {
+    weight: 1158px;
+}
+
+.item {
+    width: 1440px;
+    height: 72px;
+    border: 1px solid #e7e9fc;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+
+.tepe {
+    background-color: #ffffff;
+    justify-content: space-between;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tepe .tepe-link {
     color: #4d5ae5;
-    font-family: Raleway,sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-top: 24px;
+    margin-left: 156px;
 }
+
 .tepe .tepe-link span {
     color: #2e2f42;
-    font-family: Raleway,sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-}   
-.tepe .liste .tepelink .link{
+}
+
+.tepe ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.tepe .liste .tepelink .link {
     color: #2e2f42;
     font-family: roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    }
+    display: flex;
+    flex-direction: row;
+}
+
 .liste .tepelink .link:hover {
     color: #404bbf;
-    }
-.liste .tepelink .link:focus{
-    color: #404bbf;
-    }    
-.adres{
-    font-style: normal;
+    display: flex;
 }
-.adres .liste2 .link-a{
+
+.liste .tepelink .link:focus {
+    color: #404bbf;
+}
+
+.adres {
+    font-style: normal;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    margin-left: 332px;
+    gap: 40px;
+}
+
+.adres ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.adres .liste2 .link-a {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: end;
 }
+
+.adres .liste2:first-child {
+    width: 153px;
+    height: 24px;
+}
+
+.adres .liste2:last-child {
+    width: 151px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 156px;
+}
+
 .liste2 .link-a:hover {
     color: #404bbf;
 }
@@ -55,88 +139,182 @@ body {
 .liste2 .link-a:focus {
     color: #404bbf;
 }
-.parta{
+
+.parta {
     background-color: #2e2f42;
+    width: 1440px;
+    height: 600px;
+    margin-left: 156px;
+    margin-right: 156px;
+
+
 }
+
 .parta .parta-baslik {
-    color: #ffffff;  
+    color: #ffffff;
     font-size: 56px;
-    line-height: 1.07;    
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-}   
+    display: flex;
+    flex-direction: row;
+    box-sizing: content-box;
+    width: 496px;
+    height: 120px;
+    margin: 0px 472px 292px 472px;
+    align-items: center;
+}
+
 .parta .link-b {
     background-color: #4D5AE5;
     color: #ffffff;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    width: 169px;
+    height: 56px;
+    margin-bottom: 204px;
+    margin-left: 636px;
+    text-align: center;
+    flex-direction: row;
 }
-.parta .link-b:hover{
+
+.parta .link-b:hover {
     background-color: #404BBF;
 }
+
 .parta .link-b:focus {
     background-color: #404BBF;
 }
-.partb .partb-baslik-a{
-    color: #2e2f42;    
+
+.partb {
+    background-color: #e7e9fc;
+    width: 1440px;
+    height: 200px;
+    margin-left: 156px;
+}
+
+.partb-baslik {
+    display: flex;
+    box-sizing: content-box;
+    flex-direction: row;
+    margin-left: 639px;
+    margin-top: 0px;
+    overflow: hidden;      
+}
+.partb ul {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    gap: 24px;    
+    margin-left: 156px;
+}    
+.partb .liste3 .partb-baslik-a {
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;    
+    letter-spacing: 0.02em;  
+
 }
-.partb .liste3 .partb-baslik-a{
-    color: #2e2f42;    
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.partb .liste3 .partb-yazi{
-    color: #434455;    
+
+.partb .liste3 .partb-yazi {
+    color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
+    height: 104px;
+    display: flex;
+    box-sizing: content-box;
+    flex-direction: row;    
 }
-.partc{
+.partc {
     background-color: #f4f4fd;
+    width: 1440px;
+    height: 732px;
+    margin-left: 156px;
 }
-.partc .partc-baslik{
+
+.partc .partc-baslik {
     color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;  
+    text-transform: capitalize;
+    display: flex;
+    box-sizing: content-box;
+    flex-direction: row;
+    margin-top: 120px;
+    margin-left: 639px;
+    margin-top: 0px;    
 }
-.partc .liste4 .alt-liste{
+.partc ul{
+    box-sizing: content-box;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
+
+}
+
+.partc .liste4 .alt-liste {
     background-color: #ffffff;
 }
+
 .partc .liste4 .partc-baslik-a {
-    color: #2e2f42;    
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.partc .liste4 .partc-yazi{
-    color: #434455;  
+
+.partc .liste4 .partc-yazi {
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;    
+    letter-spacing: 0.02em;
 }
-.partd .partd-baslik{
-    color: #2e2f42;      
+
+.partd .partd-baslik {
+    color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    display: flex;
+    box-sizing: content-box;
+    flex-direction: row;
+    margin-top: 120px;
+    margin-left: 611px;
+    margin-bottom: 72px;
+    margin-right: 611px;     
 }
+.partd ul{
+    width: 1128px;
+    height: 420px;
+    box-sizing: content-box;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+
 .partd .liste5 .altbaslik {
     color: #2e2f42;
     font-weight: 500;
@@ -144,33 +322,47 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
 .partd .liste5 .partd-yazi {
-    color: #434455; 
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;    
+    letter-spacing: 0.02em;
 }
+
 .final {
     background-color: #2e2f42;
+    width: 1440px;
+    height: 312px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 156px;
+    margin-top: 0px;
 }
+
 .final .final-link {
     color: #4d5ae5;
-    font-family: Raleway,sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    text-transform: uppercase;  
 }
+
 .final .final-link-c {
     color: #f4f4fd;
-    font-family: Raleway,sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.17;       
 }
-.final .final-yazi{
+
+.final .final-yazi {
     line-height: 1.5;
-    color:#F4F4FD;
-    letter-spacing: 0.02em;    
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    box-sizing: content-box;
+    align-items: flex-start;
+    
 }
