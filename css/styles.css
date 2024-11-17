@@ -277,9 +277,11 @@ h1 h2 h3 h4 h5 h6 p ul {
 }
     
 .partc .liste4{
+    display: flex;
     box-sizing: content-box;
     list-style-type: none;    
-    flex-direction: row;    
+    flex-direction: row;
+    gap: 24px;   
 }
 .alt-liste {
     background-color: #ffffff;
@@ -303,8 +305,10 @@ h1 h2 h3 h4 h5 h6 p ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 32px 0;
-    text-align: center;   
+    padding: 32px 0; 
+}
+.name p{
+    text-align: center;
 }
 .partd{
     padding: 120px 0;
