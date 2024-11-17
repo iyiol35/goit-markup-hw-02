@@ -11,6 +11,9 @@ body {
     padding: 0;
     display: block;
 }
+img{
+    display: block;
+}
 
 h1 h2 h3 h4 h5 h6 p ul {
     margin-top: 0;
