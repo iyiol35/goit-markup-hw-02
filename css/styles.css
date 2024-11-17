@@ -366,7 +366,7 @@ partc .list4 .alt-listea{
     flex-direction: row;
     padding: 100px 0;
 }
-.final div .final-link{
+.final-link{
     display: inline-block;
     margin-bottom: 16px;
 }
