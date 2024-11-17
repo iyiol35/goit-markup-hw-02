@@ -365,7 +365,8 @@ h1 h2 h3 h4 h5 h6 p ul {
     padding: 100px 0;
 }
 .final div .final-link{
-    display: inline-block;  
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .final div p{
     max-width: 264px;
