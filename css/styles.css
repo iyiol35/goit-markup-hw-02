@@ -258,7 +258,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     padding: 32px 0;
 }
 partc .list4 .alt-listea{
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 .partc .liste4 .name{
@@ -335,7 +335,7 @@ partc .list4 .alt-listea{
     margin-bottom: 120px;
 }
 .partd .liste5 .list{
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px)/4)
 }
 .partd .liste5 .list div{
     padding: 32px 16px;
@@ -349,7 +349,7 @@ partc .list4 .alt-listea{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    width: calc((100% - 72px) / 4);    
+    width: calc((100% - 72px)/4);    
 }
 .partd .liste5 .partd-yazi {
     color: #434455;
