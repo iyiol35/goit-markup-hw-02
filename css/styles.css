@@ -23,8 +23,6 @@ h1 h2 h3 h4 h5 h6 p ul {
     weight: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-}
-div {
     display: flex;
 }
 .item {
@@ -46,6 +44,8 @@ div {
     height: 24px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+
 }
 
 .tepe .tepe-link {
@@ -55,9 +55,7 @@ div {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-top: 24px;
-    margin-left: 156px;
+    text-transform: uppercase; 
     margin-right: 76px;
 }
 
@@ -207,24 +205,25 @@ div {
     padding: 120px 0;
     margin-left: 156px;
 }
-
-.partb-baslik {
+.partb .visually-hidden{
     display: flex;
     box-sizing: content-box;
     flex-direction: row;
     margin-left: 639px;
     margin-top: 0px;
-    overflow: visually-hidden;
+    overflow: v;
 }
-.partb ul {
+.partb .liste3 {
     list-style-type: none;
     justify-content: space-between;
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
-    gap: 24px;    
+    gap: 24px; 
+}
+.partb .liste3-a{
     width: calc((100% - 72px) / 4);
-}    
+}
 .partb .liste3 .partb-baslik-a {
     color: #2e2f42;
     font-weight: 500;
@@ -246,6 +245,7 @@ div {
     box-sizing: content-box;
     flex-direction: row;    
 }
+
 .partc {
     background-color: #f4f4fd;
     width: 1440px;
@@ -268,7 +268,7 @@ div {
     margin-top: 0px;
     margin-bottom: 72px;
 }
-.partc ul{
+.partc liste4{
     box-sizing: content-box;
     list-style-type: none;
     display: flex;
@@ -278,28 +278,34 @@ div {
 .partc .liste4 .alt-liste {
     background-color: #ffffff;
 }
-
+.partc div{
+    padding: 32px 0;
+    border-top-left-radius: 0px;
+}
+.partc div h3{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.partc div p{
+    text-align: center;
+}
 .partc .liste4 .partc-baslik-a {
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    width: calc((100% - 72px) / 4);
-    margin-bottom: 8px;
-    text-align: center;
+    width: calc((100% - 72px) / 4);       
 }
 .partc .liste4 .partc-baslik-a:first-child{
-    border-radius: 0px 0px 4px 4px;
-    border-top-left-radius: 0px;    
+    border-radius: 0px 0px 4px 4px;        
 }
 .partc .liste4 .partc-yazi {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 32px 0;
-    text-align: center;
+    padding: 32px 0;    
 }
 
 .partd .partd-baslik {
@@ -312,13 +318,9 @@ div {
     padding: 120px 0;
     display: flex;
     box-sizing: content-box;
-    flex-direction: row;
-    margin-top: 120px;
-    margin-left: 611px;
-    margin-bottom: 72px;
-    margin-right: 611px;     
+    flex-direction: row;        
 }
-.partd ul{
+.partd .liste5{
     width: 1128px;
     height: 420px;
     box-sizing: content-box;
@@ -332,6 +334,12 @@ div {
     flex-wrap: wrap;
     margin-bottom: 120px;
 }
+.partd .liste5 div{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 
 .partd .liste5 .altbaslik {
     color: #2e2f42;
@@ -339,13 +347,8 @@ div {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    width: calc((100% - 72px) / 4);
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px
+    width: calc((100% - 72px) / 4);    
 }
-
 .partd .liste5 .partd-yazi {
     color: #434455;
     font-size: 16px;
