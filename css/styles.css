@@ -377,6 +377,9 @@ h1 h2 h3 h4 h5 h6 p ul {
 .final-link{
     margin-bottom: 16px;
 }
+.final-link .final-link-c{
+    display: inline-block;
+}
 .final div p{
     max-width: 264px;
 }
@@ -389,7 +392,6 @@ h1 h2 h3 h4 h5 h6 p ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-
 .final .final-link-c {
     color: #f4f4fd;
     font-family: Raleway, sans-serif;
@@ -397,8 +399,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     font-size: 18px;
     line-height: 1.17;
     display: inline-block;
-    margin-bottom: 16px;
-    display: inline-block;
+    margin-bottom: 16px;   
 }
 
 .final .final-yazi {
