@@ -361,7 +361,14 @@ div {
     flex-direction: row;
     padding: 100px 0;
 }
+.final div .final-link{
+    display: inline-block;
+    margin-bottom: 16px;
 
+}
+.final div p{
+    max-width: 264px;
+}
 .final .final-link {
     color: #4d5ae5;
     font-family: Raleway, sans-serif;
@@ -370,8 +377,8 @@ div {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 16px;
+    
+    
 }
 
 .final .final-link-c {
@@ -385,7 +392,5 @@ div {
 .final .final-yazi {
     line-height: 1.5;
     color: #F4F4FD;
-    letter-spacing: 0.02em;
-    max-width: 264px;
-    
+    letter-spacing: 0.02em;    
 }
