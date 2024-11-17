@@ -211,7 +211,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     flex-direction: row;
     margin-left: 639px;
     margin-top: 0px;
-    overflow: v;
+    overflow: hidden;
 }
 .partb .liste3 {
     list-style-type: none;
@@ -252,11 +252,17 @@ h1 h2 h3 h4 h5 h6 p ul {
     height: 732px;
     padding: 120px 0;
 }
-.partc div .liste4{
+.partc .liste4 div{
     display: flex;
     gap: 24px;
     padding: 32px 0;
-
+}
+partc .list4 .alt-listea{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.partc .liste4 .name{
+    padding: 32px 0;
 }
 .partc .partc-baslik {
     color: #2e2f42;
@@ -272,6 +278,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     margin-left: 639px;
     margin-top: 0px;
     margin-bottom: 72px;
+    padding: 32px 0; 
 }
 .partc .liste4{
     box-sizing: content-box;
@@ -281,22 +288,15 @@ h1 h2 h3 h4 h5 h6 p ul {
 .partc .liste4 .alt-liste {
     background-color: #ffffff;
 }
-.partc div{
-    padding: 32px 0;
-    border-top-left-radius: 0px;
-}
-.partc div .liste4 .partc-baslik-a {
+.partc .name .liste4 .partc-baslik-a {
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    width: calc((100% - 72px) / 4);
-    text-align: center;
-    margin-bottom: 8px;
-    border-radius: 0px 0px 4px 4px;
+    letter-spacing: 0.02em;    
+    margin-bottom: 8px;    
 }
-.partc div .liste4 .partc-yazi {
+.partc .name .liste4 .partc-yazi {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -334,13 +334,15 @@ h1 h2 h3 h4 h5 h6 p ul {
     flex-wrap: wrap;
     margin-bottom: 120px;
 }
-.partd .liste5 div{
+.partd .liste5 .list{
+    width: calc((100% - 72px) / 4)
+}
+.partd .liste5 .list div{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    border-top: none;
     margin-bottom: 8px;
+    border-top: none;
 }
-
 .partd .liste5 .altbaslik {
     color: #2e2f42;
     font-weight: 500;
@@ -378,9 +380,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
-    
+    text-transform: uppercase;  
 }
 
 .final .final-link-c {
@@ -390,6 +390,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     font-size: 18px;
     line-height: 1.17;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .final .final-yazi {
