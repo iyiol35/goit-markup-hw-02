@@ -20,7 +20,7 @@ h1 h2 h3 h4 h5 h6 p ul {
 }
 
 .container {
-    weight: 1158px;
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
@@ -106,7 +106,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     gap: 40px;
 }
 
-.adres ul {
+.adres .liste2 {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -252,7 +252,12 @@ h1 h2 h3 h4 h5 h6 p ul {
     height: 732px;
     padding: 120px 0;
 }
+.partc div .liste4{
+    display: flex;
+    gap: 24px;
+    padding: 32px 0;
 
+}
 .partc .partc-baslik {
     color: #2e2f42;
     font-size: 36px;
@@ -262,18 +267,16 @@ h1 h2 h3 h4 h5 h6 p ul {
     text-transform: capitalize;
     display: flex;
     box-sizing: content-box;
-    flex-direction: row;
+    flex-direction: row;    
     margin-top: 120px;
     margin-left: 639px;
     margin-top: 0px;
     margin-bottom: 72px;
 }
-.partc liste4{
+.partc .liste4{
     box-sizing: content-box;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
+    list-style-type: none;    
+    flex-direction: row;    
 }
 .partc .liste4 .alt-liste {
     background-color: #ffffff;
@@ -282,30 +285,27 @@ h1 h2 h3 h4 h5 h6 p ul {
     padding: 32px 0;
     border-top-left-radius: 0px;
 }
-.partc div h3{
-    text-align: center;
-    margin-bottom: 8px;
-}
-.partc div p{
-    text-align: center;
-}
-.partc .liste4 .partc-baslik-a {
+.partc div .liste4 .partc-baslik-a {
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    width: calc((100% - 72px) / 4);       
+    width: calc((100% - 72px) / 4);
+    text-align: center;
+    margin-bottom: 8px;
+    border-radius: 0px 0px 4px 4px;
 }
-.partc .liste4 .partc-baslik-a:first-child{
-    border-radius: 0px 0px 4px 4px;        
-}
-.partc .liste4 .partc-yazi {
+.partc div .liste4 .partc-yazi {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 32px 0;    
+    padding: 32px 0;
+    text-align: center;   
+}
+.partd{
+    padding: 120px 0;
 }
 
 .partd .partd-baslik {
@@ -314,11 +314,11 @@ h1 h2 h3 h4 h5 h6 p ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize;
-    padding: 120px 0;
+    text-transform: capitalize;    
     display: flex;
     box-sizing: content-box;
-    flex-direction: row;        
+    flex-direction: row;
+    margin-bottom: 72px;
 }
 .partd .liste5{
     width: 1128px;
@@ -389,7 +389,8 @@ h1 h2 h3 h4 h5 h6 p ul {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;       
+    line-height: 1.17;
+    display: inline-block;
 }
 
 .final .final-yazi {
