@@ -11,6 +11,7 @@ body {
     height: 100;
     margin: 0;
     padding: 0;
+    display: block;
 }
 
 h1 h2 h3 h4 h5 h6 p ul {
@@ -20,8 +21,12 @@ h1 h2 h3 h4 h5 h6 p ul {
 
 .container {
     weight: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
-
+div {
+    display: flex;
+}
 .item {
     width: 1440px;
     height: 72px;
@@ -30,7 +35,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     margin-left: 156px;
     margin-right: 156px;
 }
@@ -53,6 +58,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     text-transform: uppercase;
     margin-top: 24px;
     margin-left: 156px;
+    margin-right: 76px;
 }
 
 .tepe .tepe-link span {
@@ -68,7 +74,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 40px;
+    gap: 40px;    
 }
 
 .tepe .liste .tepelink .link {
@@ -80,6 +86,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     letter-spacing: 0.02em;
     display: flex;
     flex-direction: row;
+    padding: 24px 0;
 }
 
 .liste .tepelink .link:hover {
@@ -105,6 +112,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    gap: 40px;
 }
 
 .adres .liste2 .link-a {
@@ -113,8 +121,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
-    flex-direction: row;
-    gap: 40px;
+    flex-direction: row;    
     justify-content: end;
 }
 
@@ -144,6 +151,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     background-color: #2e2f42;
     width: 1440px;
     height: 600px;
+    padding: 188px 0;
     margin-left: 156px;
     margin-right: 156px;
 
@@ -151,10 +159,11 @@ h1 h2 h3 h4 h5 h6 p ul {
 }
 
 .parta .parta-baslik {
-    color: #ffffff;
+    color: #ffffff;    
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -174,10 +183,11 @@ h1 h2 h3 h4 h5 h6 p ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    width: 169px;
+    display: block;
+    min-width: 169px;    
     height: 56px;
-    margin-bottom: 204px;
-    margin-left: 636px;
+    border: none;
+    border-radius: 4px;
     text-align: center;
     flex-direction: row;
 }
@@ -194,6 +204,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     background-color: #e7e9fc;
     width: 1440px;
     height: 200px;
+    padding: 120px 0;
     margin-left: 156px;
 }
 
@@ -203,7 +214,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     flex-direction: row;
     margin-left: 639px;
     margin-top: 0px;
-    overflow: hidden;      
+    overflow: visually-hidden;
 }
 .partb ul {
     list-style-type: none;
@@ -212,15 +223,15 @@ h1 h2 h3 h4 h5 h6 p ul {
     box-sizing: border-box;
     flex-direction: row;
     gap: 24px;    
-    margin-left: 156px;
+    width: calc((100% - 72px) / 4);
 }    
 .partb .liste3 .partb-baslik-a {
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;  
-
+    letter-spacing: 0.02em;
+    margin-bottom: 8px
 }
 
 .partb .liste3 .partb-yazi {
@@ -239,7 +250,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     background-color: #f4f4fd;
     width: 1440px;
     height: 732px;
-    margin-left: 156px;
+    padding: 120px 0;
 }
 
 .partc .partc-baslik {
@@ -254,7 +265,8 @@ h1 h2 h3 h4 h5 h6 p ul {
     flex-direction: row;
     margin-top: 120px;
     margin-left: 639px;
-    margin-top: 0px;    
+    margin-top: 0px;
+    margin-bottom: 72px;
 }
 .partc ul{
     box-sizing: content-box;
@@ -262,11 +274,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     display: flex;
     flex-direction: row;
     gap: 24px;
-    margin-left: 156px;
-    margin-right: 156px;
-
 }
-
 .partc .liste4 .alt-liste {
     background-color: #ffffff;
 }
@@ -277,13 +285,21 @@ h1 h2 h3 h4 h5 h6 p ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
+    text-align: center;
 }
-
+.partc .liste4 .partc-baslik-a:first-child{
+    border-radius: 0px 0px 4px 4px;
+    border-top-left-radius: 0px;    
+}
 .partc .liste4 .partc-yazi {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 32px 0;
+    text-align: center;
 }
 
 .partd .partd-baslik {
@@ -293,6 +309,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    padding: 120px 0;
     display: flex;
     box-sizing: content-box;
     flex-direction: row;
@@ -308,7 +325,8 @@ h1 h2 h3 h4 h5 h6 p ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
     margin-left: 156px;
     margin-right: 156px;
     flex-wrap: wrap;
@@ -321,6 +339,11 @@ h1 h2 h3 h4 h5 h6 p ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    width: calc((100% - 72px) / 4);
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px
 }
 
 .partd .liste5 .partd-yazi {
@@ -336,8 +359,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     height: 312px;
     display: flex;
     flex-direction: row;
-    margin-left: 156px;
-    margin-top: 0px;
+    padding: 100px 0;
 }
 
 .final .final-link {
@@ -347,7 +369,9 @@ h1 h2 h3 h4 h5 h6 p ul {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;  
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .final .final-link-c {
@@ -362,7 +386,6 @@ h1 h2 h3 h4 h5 h6 p ul {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
-    box-sizing: content-box;
-    align-items: flex-start;
+    max-width: 264px;
     
 }
