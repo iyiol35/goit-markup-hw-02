@@ -11,6 +11,9 @@ body {
     padding: 0;
     display: block;
 }
+.element {
+    width: calc((100% - 72px) / 4);
+}
 img{
     display: block;
 }
@@ -227,7 +230,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     flex-direction: row;
     gap: 24px; 
 }
-.li-a{
+.li-a .element{
     width: calc((100% - 72px)/4);
 }
 .liste_c .partb-baslik-a {
@@ -343,7 +346,7 @@ h1 h2 h3 h4 h5 h6 p ul {
     flex-wrap: wrap;
     margin-bottom: 120px;
 }
-.list{
+.list .element{
     width: calc((100% - 72px)/4);
 }
 .liste_e .name-a{
