@@ -230,7 +230,7 @@ h1 h2 h3 h4 h5 h6 p ul {
 .partb .li-a{
     width: calc((100% - 72px)/4);
 }
-.liste3 .li-a h3 {
+.liste3 .li-a .partb-baslik-a {
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
